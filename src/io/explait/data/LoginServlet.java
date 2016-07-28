@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("We are in teh Serlet service method");
+		System.out.println("We are in the Servlet service method");
 		
 		String uname = request.getParameter("username");
 		String pwd = request.getParameter("passwrd");
